@@ -1,0 +1,13 @@
+name: Ollama Devstral model
+version: 0.0.1
+schema: v1
+models:
+  - provider: ollama
+    model: unsloth/devstral-small-2505-gguf:Q4_K_M
+    defaultCompletionOptions:
+      contextLength: 8192
+    name: Ollama Devstral-Small
+    roles:
+      - chat
+      - edit
+https://continue.gallerycdn.vsassets.io/extensions/continue/continue/1.0.18/1752431207133/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=win32-x64https://continue.gallerycdn.vsassets.io/extensions/continue/continue/1.0.18/1752431207133/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=win32-x64
